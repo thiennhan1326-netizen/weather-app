@@ -129,7 +129,12 @@
    </div>
   </main>
   <script>
-  // ---------- Data ----------
+
+// ====== CONFIG API ======
+const API_KEY = "755b28e89d55cc940a392bf8356e9521";
+const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
+
+// ---------- Data ----------
   const CITIES = [
     { id: 'hanoi', name: 'Hà Nội', temp: 28, cond: 'sunny', condText: 'Nắng nhẹ', hi: 31, lo: 24, humidity: 72, wind: 12, uv: 7 },
     { id: 'hcm', name: 'TP. Hồ Chí Minh', temp: 32, cond: 'cloudy', condText: 'Nhiều mây', hi: 34, lo: 26, humidity: 78, wind: 9, uv: 8 },
